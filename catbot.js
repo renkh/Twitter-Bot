@@ -9,7 +9,7 @@ var Twitter = new Twit(config);
 // find latest tweet according the query 'q' in params
 var retweet = function() {
   var params = {
-      q: '#nodejs, #Nodejs',  // REQUIRED
+      q: '#kitty',  // REQUIRED
       result_type: 'recent',
       lang: 'en'
   }
